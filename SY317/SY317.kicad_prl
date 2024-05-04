@@ -65,6 +65,12 @@
     "visible_layers": "8009020_7fffffff",
     "zone_display_mode": 1
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "SY317.kicad_prl",
     "version": 3

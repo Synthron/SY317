@@ -477,10 +477,10 @@
       (net 4 "Net-(U1-SW)") (pinfunction "1") (pintype "passive") (tstamp 98abc3d8-ff0c-4b60-9f75-b1bd9e206aa7))
     (pad "2" smd rect (at 2.4265 0 90) (size 1.903 2.79) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "VDD") (pinfunction "2") (pintype "passive") (tstamp 4e4011d2-025a-447e-981d-904bc1271a42))
-    (model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-2010.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 2.5 3 2))
-      (rotate (xyz 0 0 0))
+    (model "${KIPRJMOD}/IHLP2020BZERR10M11.stp"
+      (offset (xyz -0.7 6.1 -2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -769,10 +769,10 @@
       (net 8 "Net-(U1-FB)") (pinfunction "2") (pintype "passive") (tstamp 73889316-ed4a-4000-b581-e45af027c00e))
     (pad "3" smd rect (at -1.8 1) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "Net-(U1-FB)") (pinfunction "3") (pintype "passive") (tstamp 2e4e4b65-c72f-4738-9d31-207085f8ba8e))
-    (model "${KICAD7_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314G_Vertical.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 0.7 0.7 0.7))
-      (rotate (xyz 0 0 -90))
+    (model "${KIPRJMOD}/TC33X-2-101E.step"
+      (offset (xyz 0 0 0.1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -787,7 +787,7 @@
     (property "ki_keywords" "connector")
     (path "/d8f57c7b-6b30-4bae-a91e-deaa8895ea37")
     (attr through_hole)
-    (fp_text reference "J1" (at 0.889 3.81 -180) (layer "F.SilkS")
+    (fp_text reference "J1" (at 0.889 3.81) (layer "F.SilkS")
         (effects (font (size 0.6 0.6) (thickness 0.1)))
       (tstamp 684d972a-db75-4054-8d44-390a33fc7b9e)
     )
@@ -835,10 +835,10 @@
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 8c3b3071-4806-41a7-b5c1-9814c7e7b97b))
     (pad "3" thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "VD") (pinfunction "Pin_3") (pintype "passive") (tstamp c347e622-1673-40d4-a313-e2eebaa1be5b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+      (offset (xyz 0 0 -1.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 0))
     )
   )
 
